@@ -5,7 +5,7 @@ header{
     align-items: center;
 }
 header h2:first-child{
-    color: #ff7200;
+    color: #B95E05;
     font-size: 3.5rem;
     font-family: Arial;
     margin-top: .7rem;
@@ -27,41 +27,41 @@ header ul li a {
     font-size: 1.3rem;
 }
 ul li a:hover{
-    color: #ff7200;
+    color: #B95E05;
 }
-header aside{
+header form{
     margin-top: 1.5rem;
     margin-right: 7.5rem;
 }
-header aside input{
+header form input{
     display: inline-block;
     width: 20rem;
     height: 4rem;
     font-size: 1.5rem;
     background-color: transparent;
-    border: 1px solid #ff7200;
+    border: 1px solid #B95E05;
     color: #fff;
     border-right: none;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     padding-left: 2rem;
 }
-header aside input[placeholder]{
+header form input[placeholder]{
     padding-left: .75rem;
     font-size: 1.5rem;
 }
-header aside button{
-    width: 10rem;
+header form button{
+    width: 11rem;
     height: 4rem;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    color: #fff;
+    background: #B95E05;
+    border: 2px solid #B95E05;
+    color: #ffffff;
     font-size: 1.5rem;
     border-bottom-right-radius: .5rem;
     transition: 0.2s ease;
     cursor: pointer;
 }
-header aside button:hover{
+header form button:hover{
     color: #000;
 }
 
@@ -80,7 +80,7 @@ main h1{
     font-size: 5rem;
 }
 main h1 span{
-    color: #ff7200;
+    color: #ff9640;
     font-size: 6rem;
 }
 main p:first-of-type{
@@ -91,7 +91,7 @@ main p:first-of-type{
 main section button{
     width: 15rem;
     height: 4rem;
-    background: #ff7200;
+    background: #B95E05;
     margin-top: 2rem;
     color: #000;
     font-size: 2rem;
@@ -104,9 +104,9 @@ main section button:hover{
 }
 
 /* Form */ 
-form{
+main form{
     width: 30rem;
-    height: 43rem;
+    height:45rem;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
     position: absolute;
     top: -2%;
@@ -114,17 +114,17 @@ form{
     border-radius: 10px;
     padding: 25px;
 }
-form h2{
+main form h2{
     font-family: sans-serif;
     text-align: center;
-    color: #ff7200;
+    color: #B95E05;
     font-size: 2.2rem;
     background-color: #fff;
     border-radius: 1rem;
     margin: 2px;
     padding: 8px;
 }
-form input{
+main form input{
     font-family: sans-serif;
     width: 25rem;
     height: 4rem;
@@ -135,11 +135,15 @@ form input{
     letter-spacing: .15rem;
     margin-top: 3rem;
 }
+main form p:first-of-type{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
 main form button{
     width: 25rem;
     height: 4rem;
     background: #ff7200;
-    margin-top: 30px;
+    margin-top: 1rem;
     font-size: 2rem;
     border-radius: 10px;
     cursor: pointer;
@@ -150,21 +154,26 @@ main form button{
 main form button:hover{
     background: #fff;
 }
-form p:first-of-type{
+main form .sign{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.75rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    line-height: 2rem;
     text-align: center;
 }
-form a {
+main form a {
     color: #ff7200;
 }
-form .log{
+main form .log{
     text-align: center;
     padding-top: 1rem;
     font-family: 'Times New Roman', Times, serif;
 }
-/* Footer */
+main form nav{
+    padding-top: 1rem;
+    font-size: 3rem;
+    text-align: center;
+}
 
 /* Responsive */
 @media screen and (max-width: 80rem) {
@@ -197,7 +206,7 @@ form .log{
     header ul li {
         margin-top: 1.5rem;
     }
-    header aside{
+    header form{
         margin: 3rem auto 0rem;
     }
     main {
@@ -214,8 +223,8 @@ form .log{
         text-align: center;
         text-align: justify;
     }
-    form{
-        margin-top: 27rem;
+    main form{
+        margin-top: 30rem;
         position: relative;
         left: 50%;
         transform: translate(-50%, -50%);
