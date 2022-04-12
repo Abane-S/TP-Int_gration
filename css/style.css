@@ -67,9 +67,7 @@ header form button:hover{
 
 /* Main */
 main{
-    width: 100%;
     color: #fff;
-    position: relative;
 }
 main section{
     margin-top: 13rem;
@@ -109,7 +107,7 @@ main form{
     height:45rem;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
     position: absolute;
-    top: -2%;
+    top: 23%;
     left: 67.5%;
     border-radius: 10px;
     padding: 25px;
@@ -176,12 +174,12 @@ main form nav{
 }
 
 /* Footer */
-footer p{
+footer {
     background-color: rgb(227, 227, 227, 0.25);
     text-align: center;
     width: 100%;
     position: relative;
-    top: 17rem;
+    top: 16.5rem;
 }
 
 /* Responsive */
