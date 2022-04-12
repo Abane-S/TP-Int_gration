@@ -1,6 +1,6 @@
 # Intégration
 
-Lien du site avec la [Nouvelle Intégration](https://abane1.github.io/PPE-Int-gration/)
+Lien du site avec la [Nouvelle Intégration](https://abane1.github.io/TP-Int_gration/)
 
 <br>
 
