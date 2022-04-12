@@ -175,6 +175,15 @@ main form nav{
     text-align: center;
 }
 
+/* Footer */
+footer p{
+    background-color: rgb(227, 227, 227, 0.25);
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 16.5rem;
+}
+
 /* Responsive */
 @media screen and (max-width: 80rem) {
     header ul {
@@ -228,5 +237,8 @@ main form nav{
         position: relative;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    footer p{
+        font-size: smaller;
     }
 }
