@@ -21,7 +21,7 @@
             <li><a href="#">CONTACT</a></li>
         </ul>
         <form action="traitement.php" method="post">
-            <input class="srch" type="search" name="q" placeholder="Type To text" role="search">            
+            <input class="srch" type="search" name="q" placeholder="Type To text" id="search" aria-required="true" aria-labelledby="search" required="">            
             <button>Search</button>
         </form>
     </header>
@@ -35,10 +35,12 @@
             <button>JOIN US</button>
         </section>
 
-        <form action="traitement.php" method="post">
+        <form action="traitement.php" method="get">
             <h2>Login Here</h2>
-            <input type="email" name="email" placeholder="Enter Email Here" name="email" id="email" aria-required="true" required aria-label="required">
-            <input type="password" name="password" placeholder="Enter Password Here" name="password"id="password" aria-required="true" required aria-label="required">
+            <!-- <input type="email" name="email" placeholder="Enter Email Here" aria-label="email"> -->
+            <input type="email" name="email" placeholder="Enter Email Here" id="email" aria-required="true" aria-labelledby="email" required="">
+            <input type="password" name="password" placeholder="Enter Password Here" id="password" aria-required="true" aria-labelledby="password" required="">
+            <!-- <input type="password" name="password" placeholder="Enter Password Here" aria-label="password"> -->
             <p></p>
             <button>Login</button>
 

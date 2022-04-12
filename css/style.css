@@ -42,8 +42,8 @@ header form input{
     border: 1px solid #B95E05;
     color: #fff;
     border-right: none;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
     padding-left: 2rem;
 }
 header form input[placeholder]{
@@ -78,7 +78,7 @@ main h1{
     font-size: 5rem;
 }
 main h1 span{
-    color: #ff9640;
+    color: #ff7200;
     font-size: 6rem;
 }
 main p:first-of-type{
@@ -89,7 +89,7 @@ main p:first-of-type{
 main section button{
     width: 15rem;
     height: 4rem;
-    background: #B95E05;
+    background: #ff7200;
     margin-top: 2rem;
     color: #000;
     font-size: 2rem;
@@ -100,11 +100,14 @@ main section button{
 main section button:hover{
     background-color: #fff;
 }
-
+/* Connexion */
+main form .connexion{
+    height: 46rem;
+}
 /* Form */ 
 main form{
     width: 30rem;
-    height:45rem;
+    height: 42rem;
     background: linear-gradient(to top, rgba(0,0,0,0.8) 50%,rgba(0,0,0,0.8) 50%);
     position: absolute;
     top: 23%;
@@ -115,9 +118,9 @@ main form{
 main form h2{
     font-family: sans-serif;
     text-align: center;
-    color: #B95E05;
+    color: #df6806;
     font-size: 2.2rem;
-    background-color: #fff;
+    background-color: rgb(245, 245, 245);
     border-radius: 1rem;
     margin: 2px;
     padding: 8px;
@@ -128,10 +131,13 @@ main form input{
     height: 4rem;
     background: transparent;
     border-bottom: 1px solid #ff7200;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     letter-spacing: .15rem;
     margin-top: 3rem;
+}
+main form input:focus, header form input:focus{
+    border-width: 0.2rem;
 }
 main form p:first-of-type{
     margin-top: 1rem;
@@ -140,7 +146,7 @@ main form p:first-of-type{
 main form button{
     width: 25rem;
     height: 4rem;
-    background: #ff7200;
+    background: #ff7300;
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 10px;
@@ -160,26 +166,34 @@ main form .sign{
     text-align: center;
 }
 main form a {
+    color: wheat;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    
+}
+main form a:hover{
     color: #ff7200;
 }
 main form .log{
     text-align: center;
     padding-top: 1rem;
-    font-family: 'Times New Roman', Times, serif;
 }
 main form nav{
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     font-size: 3rem;
     text-align: center;
 }
 
 /* Footer */
 footer {
-    background-color: rgb(227, 227, 227, 0.25);
+    background-color: rgb(227, 227, 227, 0.10);
     text-align: center;
     width: 100%;
     position: relative;
     top: 16.5rem;
+}
+footer p{
+    color: white;
 }
 
 /* Responsive */
